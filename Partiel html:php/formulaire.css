@@ -1,0 +1,158 @@
+body {
+	background-color: #FFECC4;
+	color: #071933;
+	text-align: center;
+	width: 100%;
+	margin: auto;
+}
+
+/*NAV*/
+
+nav {
+	background-color: #081935;
+	padding-bottom: 170px;
+	padding-top: 30px;
+}
+
+ul {
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li img {
+	width: 40%;
+}
+
+nav a {
+	text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+#espace {
+	margin-left: 55%;
+}
+
+.navspace {
+	margin-left: 20px;
+}
+
+/*TITRES*/
+
+h1, h2, h3 {
+	font-weight: bold;
+}
+
+h1, h2 {
+	margin-top: 16px;
+}
+
+h1 {
+	color: #FA4B34;
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 26px;
+}
+
+h3 {
+	font-size: 20px;
+	margin: 50px 0;
+}
+
+/*MAIN*/
+
+main {
+	margin-bottom: 20px;
+}
+
+#background {
+/*	padding: 90px;*/
+    background-color: #E0C590;
+    height: 220px;
+}
+
+#background #feuille {
+	position: relative;
+	bottom: 115px;
+	left: 20px;
+	transform: rotate(-20deg);
+}
+
+#background #instru {
+	width: 20%;
+	position: relative;
+	bottom: 100px;
+	right: 85px;
+}
+
+#condi {
+	width: 30%;
+	margin: auto;
+}
+
+/*FORM*/
+
+form {
+	padding-bottom: 70px;
+}
+
+form div label {
+/*	display: inline-block;*/
+	text-align: initial;
+	margin-top: auto;
+	margin-left: 570px;
+}
+
+label {
+	display: block;
+}
+
+span {
+	color: red;
+}
+
+#bouton {
+	background-color: #FF4D35;
+	border: none;
+	padding: 10px 20px;
+	color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+/*FOOTER*/
+
+footer a {
+	display: inline-block;
+	margin: auto;
+}
+
+footer a img {
+	height: 50px;
+}
+
+a {
+	color: #071933;
+}
+
+#feuille1 {
+	position: relative;
+	bottom: 350px;
+	right: 420px;
+	height: 500px;
+}
+
+#feuille2 {
+	position: relative;
+	bottom: 350px;
+	left: 420px;
+    height: 500px;
+    
+}
+
+  
