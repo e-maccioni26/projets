@@ -1,0 +1,57 @@
+body > header {
+    background: #e54;
+    color: #fff;
+    text-align: center;
+}
+
+body > header .container {
+    padding: 60px;
+}
+
+.navbar {
+    background: #333;
+} 
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navbar a {
+    color: #fff;  
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.main, .sidebar {
+    padding: 15px;
+}
+
+.sidebar {
+    background: #eee;
+}
+
+article, .widget {
+    margin-bottom: 50px;
+}
+.widget-projet .img-fake {
+    margin-bottom: 10px;
+}
+
+body > footer {
+    background: #ddd;
+    text-align: center;
+}
+body > footer .container {
+    padding: 20px;
+}
+
+.img-fake {
+    background: #aaa;
+    height: 200px;
+}
+.img-small {
+    height: 60px;
+}
